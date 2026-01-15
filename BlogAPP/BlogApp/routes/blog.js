@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-// Import Controller 
+//ls Import Controller 
 const {createComment} = require("../controllers/commentController");
 const {createPost,getAllPosts} = require("../controllers/postController");
 const {likePost,unlikePost} = require("../controllers/likeController");
